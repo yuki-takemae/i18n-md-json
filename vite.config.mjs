@@ -10,6 +10,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: 'i18n-md-json', //追加
   plugins: [
     Vue({
       template: { transformAssetUrls }
